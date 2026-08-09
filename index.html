@@ -282,15 +282,16 @@
   }
   .choice.selected::before{opacity:1}
   .reveal{
-    margin:4.5rem auto 0;max-width:38rem;min-height:9rem;
+    margin:4.5rem auto 0;max-width:41rem;min-height:9rem;
     opacity:0;transform:translateY(20px);transition:all 1s cubic-bezier(.19,1,.22,1);
   }
   .reveal.show{opacity:1;transform:translateY(0)}
   .reveal p{font-family:var(--serif);font-style:italic;font-size:clamp(1.3rem,2.6vw,1.8rem);line-height:1.6}
   .reveal .ask{margin-top:2.8rem;text-align:left}
   .reveal .ask p{
-    font-size:.95rem;letter-spacing:.02em;line-height:2;color:var(--ivory-dim);
-    margin-bottom:1.15rem;
+    font-size:clamp(1.08rem,1.9vw,1.3rem);letter-spacing:.015em;line-height:1.95;
+    color:rgba(243,238,226,.93);
+    margin-bottom:1.35rem;
   }
   .reveal .ask p.lede{
     font-family:var(--serif);font-style:italic;font-size:clamp(1.3rem,2.5vw,1.7rem);
@@ -298,9 +299,9 @@
   }
   .reveal .ask .pick{color:var(--mint)}
   .reveal .send{
-    display:inline-block;margin-top:1.6rem;padding:.95rem 2.6rem;
+    display:inline-block;margin-top:2rem;padding:1.05rem 2.9rem;
     border:1px solid var(--champagne);color:var(--champagne);text-decoration:none;
-    font-size:.7rem;letter-spacing:.4em;text-transform:uppercase;transition:all .4s ease;
+    font-size:.78rem;letter-spacing:.4em;text-transform:uppercase;transition:all .4s ease;
   }
   .reveal .send:hover{background:var(--champagne);color:#04100b;box-shadow:0 0 40px -6px rgba(216,188,138,.7)}
 
